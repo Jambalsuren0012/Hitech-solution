@@ -1,7 +1,10 @@
 .bghero {
   background-image: url(../../assets/img/hero2.jpg);
+  background-repeat: no-repeat;
 
-  height: 50vw;
+  background-size: cover;
+
+  height: 800px;
 }
 // .element-class {
 //   position: relative;
