@@ -14,7 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { WorksComponent } from './works/works.component';
 import { ContactComponent } from './contact/contact.component';
 import { CardComponent } from './card/card.component';
-import { Navbar2Component } from './navbar2/navbar2.component';
+
 import { CountupComponent } from './countup/countup.component';
 
 @NgModule({
@@ -29,7 +29,7 @@ import { CountupComponent } from './countup/countup.component';
     WorksComponent,
     ContactComponent,
     CardComponent,
-    Navbar2Component,
+
     CountupComponent,
   ],
   imports: [
