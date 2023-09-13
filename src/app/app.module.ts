@@ -13,13 +13,12 @@ import { ServiceComponent } from './pages/service/service.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CardComponent } from './components/card/card.component';
-
 import { CountupComponent } from './components/countup/countup.component';
 import { PriceComponent } from './components/price/price.component';
 import { CameraPageComponent } from './pages/camera-page/camera-page.component';
 import { PartnersComponent } from './components/partners/partners.component';
 import { Ms365Component } from './pages/ms365/ms365.component';
-
+import { HelpbarComponent } from './components/helpbar/helpbar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +36,7 @@ import { Ms365Component } from './pages/ms365/ms365.component';
     CameraPageComponent,
     PartnersComponent,
     Ms365Component,
+    HelpbarComponent,
   ],
   imports: [
     BrowserModule,
