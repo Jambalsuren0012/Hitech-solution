@@ -19,6 +19,7 @@ import { CameraPageComponent } from './pages/camera-page/camera-page.component';
 import { PartnersComponent } from './components/partners/partners.component';
 import { Ms365Component } from './pages/ms365/ms365.component';
 import { HelpbarComponent } from './components/helpbar/helpbar.component';
+import { Navbar2Component } from './components/navbar2/navbar2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +38,7 @@ import { HelpbarComponent } from './components/helpbar/helpbar.component';
     PartnersComponent,
     Ms365Component,
     HelpbarComponent,
+    Navbar2Component,
   ],
   imports: [
     BrowserModule,

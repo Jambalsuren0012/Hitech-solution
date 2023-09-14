@@ -12,8 +12,8 @@ export class CountupComponent {
     if (this.projectcount === 66) {
       clearInterval(this.projectcountstop);
     }
-  }, 10);
-  projectcount2: number = 0;
+  }, 20);
+  projectcount2: number = 9000;
   projectcountstop2: any = setInterval(() => {
     this.projectcount2++;
     if (this.projectcount2 === 10000) {
@@ -26,5 +26,5 @@ export class CountupComponent {
     if (this.projectcount3 === 13) {
       clearInterval(this.projectcountstop3);
     }
-  }, 10);
+  }, 15);
 }
