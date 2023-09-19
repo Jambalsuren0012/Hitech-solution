@@ -20,6 +20,8 @@ import { PartnersComponent } from './components/partners/partners.component';
 import { Ms365Component } from './pages/ms365/ms365.component';
 import { HelpbarComponent } from './components/helpbar/helpbar.component';
 import { Navbar2Component } from './components/navbar2/navbar2.component';
+import { CardflipComponent } from './cardflip/cardflip.component';
+import { WhyweComponent } from './whywe/whywe.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +41,8 @@ import { Navbar2Component } from './components/navbar2/navbar2.component';
     Ms365Component,
     HelpbarComponent,
     Navbar2Component,
+    CardflipComponent,
+    WhyweComponent,
   ],
   imports: [
     BrowserModule,
