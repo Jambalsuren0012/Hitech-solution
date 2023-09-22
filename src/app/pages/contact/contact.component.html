@@ -21,8 +21,17 @@
             </h2>
             <div class="text-white">
               <fa-icon [icon]="phone" class="px-5"> </fa-icon>
-              <p>7755 9911</p>
+              Call
+              <a
+                href="<? echo ($detect->isMobile()) ? 'tel' : 'callto'; ?> :+1-579-827-0034"
+                >579-827-0034</a
+              >
               <fa-icon [icon]="mail" class="px-5"></fa-icon>
+              <p>
+                <a href="mailto:someone@example.com"
+                  >support@hitechsolution.mn</a
+                >
+              </p>
               <fa-icon [icon]="facebook" class="px-5"></fa-icon>
               <fa-icon [icon]="instagram" class="px-5"></fa-icon>
               <fa-icon [icon]="twitter" class="px-5"></fa-icon>
