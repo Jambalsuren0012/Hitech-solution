@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/header/header.component';
@@ -22,6 +22,7 @@ import { HelpbarComponent } from './components/helpbar/helpbar.component';
 import { Navbar2Component } from './components/navbar2/navbar2.component';
 import { CardflipComponent } from './cardflip/cardflip.component';
 import { WhyweComponent } from './whywe/whywe.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +34,6 @@ import { WhyweComponent } from './whywe/whywe.component';
     FooterComponent,
     ContactComponent,
     CardComponent,
-
     CountupComponent,
     PriceComponent,
     CameraPageComponent,

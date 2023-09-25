@@ -3,7 +3,7 @@
 <button
   *ngIf="isMenuScrolled"
   (click)="scrollToTop()"
-  class="flex text-white transition-all duration-300 fixed bottom-5 right-7 w-10 h-10 bg-emerald-600 hover:bg-slate-800 rounded-full"
+  class="flex text-white transition-all duration-300 fixed bottom-5 right-7 w-10 h-10 bg-gradient-to-r from-sky-600 from-10% via-sky-500 via-30% to-sky-500 to-90% hover:bg-slate-800 rounded-full"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -20,5 +20,4 @@
     />
   </svg>
 </button>
-<app-cardflip></app-cardflip>
 <app-footer></app-footer>
