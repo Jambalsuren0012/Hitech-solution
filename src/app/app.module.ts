@@ -22,6 +22,7 @@ import { HelpbarComponent } from './components/helpbar/helpbar.component';
 import { Navbar2Component } from './components/navbar2/navbar2.component';
 import { CardflipComponent } from './cardflip/cardflip.component';
 import { WhyweComponent } from './whywe/whywe.component';
+import { CareerComponent } from './career/career.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { WhyweComponent } from './whywe/whywe.component';
     Navbar2Component,
     CardflipComponent,
     WhyweComponent,
+    CareerComponent,
   ],
   imports: [
     BrowserModule,
