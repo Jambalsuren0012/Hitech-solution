@@ -4,7 +4,6 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/header/header.component';
-import { SliderComponent } from './components/slider/slider.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavbarComponent } from './pages/navbar/navbar.component';
@@ -24,12 +23,13 @@ import { CardflipComponent } from './cardflip/cardflip.component';
 import { WhyweComponent } from './whywe/whywe.component';
 import { CareerComponent } from './career/career.component';
 import { CommentsComponent } from './comments/comments.component';
+import { QuestionsComponent } from './questions/questions.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SliderComponent,
     NavbarComponent,
     AboutComponent,
     ServiceComponent,
@@ -47,6 +47,8 @@ import { CommentsComponent } from './comments/comments.component';
     WhyweComponent,
     CareerComponent,
     CommentsComponent,
+    QuestionsComponent,
+    TeamComponent,
   ],
   imports: [
     BrowserModule,

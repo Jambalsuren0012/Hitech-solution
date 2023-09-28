@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { HostListener } from '@angular/core';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

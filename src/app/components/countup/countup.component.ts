@@ -13,7 +13,7 @@ export class CountupComponent {
       // Adjust the condition if needed
       clearInterval(this.projectcountstop);
     }
-  }, 20);
+  }, 40);
 
   projectcount2: number = 0;
   projectcountstop2: any = setInterval(() => {
