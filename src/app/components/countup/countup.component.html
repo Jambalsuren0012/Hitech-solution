@@ -15,7 +15,7 @@
   </div>
 </div> -->
 
-<div
+<!-- <div
   class="w-full max-w-screen-xl mx-auto p-4 md:py-8 flex justify-between flex-wrap"
 >
   <div class="w-3/4 xl:align-text-bottom">
@@ -47,6 +47,72 @@
     <div class="items-center text-center">
       <h1 class="text-sky-800 text-6xl">{{ projectcount3 }}</h1>
       <p>Жилийн туршлага</p>
+    </div>
+  </div>
+</div> -->
+<!-- <div
+  class="w-full max-w-screen-xl mx-auto p-4 md:py-8 flex flex-col md:flex-row justify-between items-center md:flex-wrap"
+>
+  <div class="w-full md:w-3/4 text-center md:text-left">
+    <h1
+      class="font-bold mx-auto sm:justify-center sm:items-center text-xl text-ellipsis pt-12"
+    >
+      Ажилчдын бүтээмж, сэтгэл ханамжийг нэмэгдүүлэх орчин үеийн ажлыг байрыг
+      бий болгоход тань бид тусалъя.
+    </h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos odio eveniet
+      magnam accusantium sit repellat maxime animi totam provident minima?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quam
+      deserunt eveniet?
+    </p>
+  </div>
+
+  <div class="w-full md:w-auto mt-4 md:mt-0 flex justify-between">
+    <div class="text-center">
+      <h1 class="text-sky-800 text-6xl">{{ projectcount2 }}</h1>
+      <p>Гүйцэтгэсэн ажил</p>
+    </div>
+    <div class="text-center">
+      <h1 class="text-sky-800 text-6xl">{{ projectcount }}</h1>
+      <p>Хамтрагч байгууллага</p>
+    </div>
+    <div class="text-center">
+      <h1 class="text-sky-800 text-6xl">{{ projectcount3 }}</h1>
+      <p>Жилийн туршлага</p>
+    </div>
+  </div>
+</div> -->
+<div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+  <!-- Desktop view with grid layout -->
+  <div class="md:grid grid-cols-3 gap-4">
+    <div class="col-span-2 text-left">
+      <h1 class="font-bold text-xl text-ellipsis pt-12">
+        Ажилчдын бүтээмж, сэтгэл ханамжийг нэмэгдүүлэх орчин үеийн ажлыг байрыг
+        бий болгоход тань бид тусалъя.
+      </h1>
+      <!-- Hide the <p> tag on mobile view -->
+      <p class="hidden md:block">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos odio
+        eveniet magnam accusantium sit repellat maxime animi totam provident
+        minima?
+      </p>
+    </div>
+    <div class="text-center">
+      <div class="text-center">
+        <h1 class="text-sky-800 text-6xl">{{ projectcount2 }}</h1>
+        <p>Гүйцэтгэсэн ажил</p>
+      </div>
+      <div class="text-center">
+        <h1 class="text-sky-800 text-6xl">{{ projectcount }}</h1>
+        <p>Хамтрагч байгууллага</p>
+      </div>
+      <div class="text-center">
+        <h1 class="text-sky-800 text-6xl">{{ projectcount3 }}</h1>
+        <p>Жилийн туршлага</p>
+      </div>
     </div>
   </div>
 </div>
